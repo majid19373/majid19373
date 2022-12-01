@@ -3,7 +3,7 @@
 - 👀 I'm skilled in javascript, Typescript, React, Next.js, Front-End.
 - 💞️ I'm intrested in Typescript, Flutter.
 - 📫 Contact me:  {
-        email: 'majidsma19373@gmail.com',
+        email: majidsma19373@gmail.com,
         linkedin: <a href='https://www.linkedin.com/in/seyed-majid-attar-0bb57b18b' target='_blank'>seyed majid attar</a>,
         telegram: <a href='https://t.me/majid19373' target='_blank'>majid19373</a>
     }
@@ -53,7 +53,7 @@ class Developer extends Pesron {
     public printInformation():void {
         const str: string = `
             👋 ${this.about()}
-            - 🌱 I'm skilled in ${this.skills.toString()}.
+            - 👀 I'm skilled in ${this.skills.toString()}.
             - 💞️ I'm intrested in ${this.favorites.toString()}.
             - 📫 Contact me: ${JSON.stringify(this.contacts)}
         `
