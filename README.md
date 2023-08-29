@@ -1,6 +1,6 @@
 <h1>👋 Hi, I’m Seyed Majid Attar</h1>
 
-- 👀 I'm skilled in javascript, Typescript, React, Next.js, Front-End.
+- 👀 I'm skilled in javascript, Typescript, React, Next.js, php, Laravel.
 - 💞️ I'm intrested in Typescript, Flutter.
 - 📫 Contact me:  {
         email: majidsma19373@gmail.com,
@@ -64,7 +64,7 @@ class Developer extends Pesron {
 const user: User = {
     name: 'Seyed Majid Attar',
     yearOfBirth: 1994,
-    skills: ['javascript', 'Typescript', 'React', 'Next.js', 'Front-End'],
+    skills: ['javascript', 'Typescript', 'React', 'Next.js', 'php', 'Laravel'],
     favorites: ['Typescript', 'Flutter'],
     contacts: {
         email: 'majidsma19373@gmail.com',
