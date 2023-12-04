@@ -1,7 +1,7 @@
 <h1>👋 Hi, I’m Seyed Majid Attar</h1>
 
-- 👀 I'm skilled in javascript, Typescript, React, Next.js, php, Laravel.
-- 💞️ I'm intrested in Typescript, Flutter.
+- 👀 I'm skilled in javascript, Typescript, React, Next.js, PHP, Laravel.
+- 💞️ I'm interested in Typescript, Flutter.
 - 📫 Contact me:  {
         email: majidsma19373@gmail.com,
         linkedin: <a href='https://www.linkedin.com/in/seyed-majid-attar-0bb57b18b' target='_blank'>seyed majid attar</a>,
@@ -11,7 +11,7 @@
 ```yaml
 type Contacts = {
     email: string
-    linkedin: string
+    LinkedIn: string
     telegram: string
 }
 
@@ -23,7 +23,7 @@ type User = {
     contacts: Contacts
 }
 
-class Pesron {
+class Person {
     protected name: string
     protected yearOfBirth: number
 
@@ -38,7 +38,7 @@ class Pesron {
 
 }
 
-class Developer extends Pesron {
+class Developer extends Person {
     private skills: string[]
     private favorites: string[]
     private contacts: Contacts
