@@ -11,7 +11,7 @@
 ```yaml
 type Contacts = {
     email: string
-    LinkedIn: string
+    linkedin: string
     telegram: string
 }
 
