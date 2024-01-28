@@ -4,7 +4,7 @@
 - 💞️ I'm interested in Typescript, Flutter.
 - 📫 Contact me:  {
         email: majidsma19373@gmail.com,
-        linkedin: <a href='https://www.linkedin.com/in/seyed-majid-attar-0bb57b18b' target='_blank'>seyed majid attar</a>,
+        linkedin: <a href='https://www.linkedin.com/in/majid19373' target='_blank'>seyed majid attar</a>,
         telegram: <a href='https://t.me/majid19373' target='_blank'>majid19373</a>
     }
 
