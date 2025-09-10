@@ -40,9 +40,6 @@ I'm constantly evolving and expanding my skill set:
 - 🚀 **Performance Optimization** - Making applications fast and responsive
 - 🧠 **Problem Solving** - Tackling complex technical challenges
 
-### 📈 GitHub Stats
-
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)
 
 ### 🛠️ Languages & Tools
 
@@ -67,6 +64,15 @@ I'm always excited to collaborate on interesting projects or discuss software ar
 ---
 
 ⭐️ From [majid19373](https://github.com/majid19373)
+
+<!-- 
+Remember to:
+1. Replace [Your Name] with your actual name
+2. Replace [your-username] with your GitHub username
+3. Add your actual contact information
+4. Add links to your best repositories
+5. Customize the colors and styling to match your preference
+-->
 
 ``` go
 package main
