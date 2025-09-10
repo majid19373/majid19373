@@ -68,16 +68,7 @@ I'm always excited to collaborate on interesting projects or discuss software ar
 
 ⭐️ From [majid19373](https://github.com/majid19373)
 
-<!-- 
-Remember to:
-1. Replace [Your Name] with your actual name
-2. Replace [your-username] with your GitHub username
-3. Add your actual contact information
-4. Add links to your best repositories
-5. Customize the colors and styling to match your preference
--->
-
-```go
+``` go
 package main
 
 import (
@@ -86,22 +77,20 @@ import (
 	"time"
 )
 
-// Developer represents the profile of a software engineer
 type Developer struct {
-	Name           string
-	Title          string
-	Experience     int
-	BackendSkills  []string
-	FrontendSkills []string
-	Databases      []string
+	Name              string
+	Title             string
+	Experience        int
+	BackendSkills     []string
+	FrontendSkills    []string
+	Databases         []string
 	CurrentlyLearning []string
-	Passions       []string
+	Passions          []string
 }
 
-// NewDeveloper creates a new developer profile
 func NewDeveloper() *Developer {
 	return &Developer{
-		Name:       "Software Engineer", // Replace with your actual name
+		Name:       "Majid Attar",
 		Title:      "Full Stack Developer & Software Architecture Enthusiast",
 		Experience: 5,
 		BackendSkills: []string{
@@ -114,7 +103,7 @@ func NewDeveloper() *Developer {
 			"MySQL", "PostgreSQL", "MongoDB",
 		},
 		CurrentlyLearning: []string{
-			"Golang", "Domain Driven Design (DDD)", 
+			"Golang", "Domain Driven Design (DDD)",
 			"Clean Architecture", "Microservices", "Design Patterns",
 		},
 		Passions: []string{
@@ -124,7 +113,6 @@ func NewDeveloper() *Developer {
 	}
 }
 
-// Introduce displays a comprehensive introduction
 func (d *Developer) Introduce() {
 	fmt.Println("🚀 " + strings.Repeat("=", 60) + " 🚀")
 	fmt.Printf("       Welcome! I'm %s\n", d.Name)
@@ -135,7 +123,6 @@ func (d *Developer) Introduce() {
 	d.showTechStack()
 	d.showLearningJourney()
 	d.showPassions()
-	d.showMotivation()
 }
 
 func (d *Developer) showBasicInfo() {
@@ -150,17 +137,17 @@ func (d *Developer) showBasicInfo() {
 func (d *Developer) showTechStack() {
 	fmt.Println("🛠️  TECHNICAL EXPERTISE")
 	fmt.Println(strings.Repeat("-", 40))
-	
+
 	fmt.Println("🔧 Backend Technologies:")
 	for _, skill := range d.BackendSkills {
 		fmt.Printf("   • %s\n", skill)
 	}
-	
+
 	fmt.Println("\n🎨 Frontend Technologies:")
 	for _, skill := range d.FrontendSkills {
 		fmt.Printf("   • %s\n", skill)
 	}
-	
+
 	fmt.Println("\n🗄️  Database Technologies:")
 	for _, db := range d.Databases {
 		fmt.Printf("   • %s\n", db)
@@ -187,17 +174,6 @@ func (d *Developer) showPassions() {
 	fmt.Println()
 }
 
-func (d *Developer) showMotivation() {
-	fmt.Println("💭 PHILOSOPHY")
-	fmt.Println(strings.Repeat("-", 40))
-	fmt.Println("   \"Great software is not just about solving today's problems,")
-	fmt.Println("    but building foundations for tomorrow's opportunities.\"")
-	fmt.Println()
-	fmt.Println("🤝 Always open to collaboration and new challenges!")
-	fmt.Println("📫 Let's build something amazing together!")
-}
-
-// AnimatedIntro provides a dynamic introduction with timing
 func (d *Developer) AnimatedIntro() {
 	messages := []string{
 		"🚀 Initializing developer profile...",
@@ -205,7 +181,7 @@ func (d *Developer) AnimatedIntro() {
 		"🧠 Processing architectural knowledge...",
 		"✅ Ready to code and collaborate!",
 	}
-	
+
 	for _, message := range messages {
 		fmt.Println(message)
 		time.Sleep(800 * time.Millisecond)
@@ -214,18 +190,10 @@ func (d *Developer) AnimatedIntro() {
 }
 
 func main() {
-	// Create developer profile
 	developer := NewDeveloper()
-	
-	// Show animated intro
+
 	developer.AnimatedIntro()
-	
-	// Display full introduction
+
 	developer.Introduce()
-	
-	// Footer
-	fmt.Println(strings.Repeat("=", 70))
-	fmt.Printf("Generated with ❤️  in Go | %s\n", time.Now().Format("2006-01-02 15:04:05"))
-	fmt.Println("🔗 Check out my GitHub profile for more projects!")
-	fmt.Println(strings.Repeat("=", 70))
 }
+
