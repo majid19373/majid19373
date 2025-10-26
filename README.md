@@ -59,7 +59,7 @@ I'm constantly evolving and expanding my skill set:
 
 I'm always excited to collaborate on interesting projects or discuss software architecture!
 
-- 💼 **LinkedIn**: <a href='https://www.linkedin.com/in/majid19373' target='_blank'>majid19373</a>
+- 💼 **LinkedIn**: <a href='https://www.linkedin.com/in/majid-atr' target='_blank'>in/majid-atr</a>
 - 📧 **Email**: <a href='mailto:majidsma19373@gmail.com' target='_blank'>majidsma19373@gmail.com</a>
 ---
 
